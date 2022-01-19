@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@10;400;900&family=Mochiy+Pop+P+One&display=swap');
+
+body {
+    background-color: pink;color: rgb(172, 23, 97);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Mochiy Pop P One;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 0 0 10px rgb(255, 97, 176);
+}
+
+p {
+    width: 180px;
+    background: pink;
+    font-size: 1em;
+    margin-top: 270px;
+    margin-left: 135px;
+    border: 3px inset black;
+}
+
+img {
+    height: 500px;
+    object-fit: contain;
+    border: 5px solid black;
+}
+
+.image1 {
+    width: 300px;
+    height: 300px;
+    background: url("assets/jpg1.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;  
+    padding: 30px;
+    margin: 30px auto;
+    box-sizing: content-box;
+}
+
+.content-box {
+    box-sizing: content-box;
+}
+
+.content-box {
+    margin-top: 10px;
+}
+
+.background {
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;  
+    padding: 30px;
+    margin: 30px auto;
+    box-sizing: content-box;
+}
+
+.image2 {
+    width: 300px;
+    height: 300px;
+    background: url("assets/gif1.gif");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;  
+    padding: 30px;
+    margin: 30px auto;
+    box-sizing: content-box;
+}
+
+.image3 {
+    width: 300px;
+    height: 300px;
+    background: url("https://media1.giphy.com/media/3oz8xRF0v9WMAUVLNK/giphy.gif?cid=ecf05e47g9uhffd8t4ajgokqwxo77fgbi1mvlnws637anakw&rid=giphy.gif&ct=g");
+    background-size: cover;
+    background-position: center;
+    border: 5px dashed white;  
+    border-radius: 50px;
+    padding: 50px;
+    margin: 70px auto;
+    box-sizing: content-box;
+}
+
+.text {
+    font-weight: bold;
+    text-shadow: 0 0 1px rgb(2, 2, 2);
+}
